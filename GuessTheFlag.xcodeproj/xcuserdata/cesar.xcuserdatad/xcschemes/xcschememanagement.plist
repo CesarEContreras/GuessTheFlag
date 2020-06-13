@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>GuessTheFlag.xcscheme_^#shared#^_</key>
+		<key>DBE3EA5F24950881005728F2</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBE3EA7824950883005728F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBE3EA8324950883005728F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
