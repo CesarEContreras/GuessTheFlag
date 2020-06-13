@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		030CF48E0EBA4BC238D7DB46196FDF73 /* Pods-GuessTheFlag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA63ACE7E9F1A1108D07F3F9A02D5E2 /* Pods-GuessTheFlag-dummy.m */; };
+		2C6EDB189F5F1D62B21CEFA95756CF70 /* Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C54099C98339F73B5DDCEDE09C296CBA /* Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC6691A8C0BC276363AA79425A48B00 /* Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F6F073A9323707A36B66AE0ED32FE /* Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m */; };
+		6792B0664BDB4014B382135AF7810FAE /* Pods-GuessTheFlagTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F986216FCC9DF17789CA1BBFDEC3B185 /* Pods-GuessTheFlagTests-dummy.m */; };
+		7B503353855A5E819590AE83A73D883B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9EC8420166070B5BA8B2E0E32917DE1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2FFE4D4CCF35D51A3665877602919B2 /* Pods-GuessTheFlagTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3415828C43295697A2EE3ADDA6396E78 /* Pods-GuessTheFlagTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D01028ACD2B0B4A3DA9145126309FE /* Pods-GuessTheFlag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A266146C50B85B74CFC0C3BC3B0F8F /* Pods-GuessTheFlag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08CFDE54EE5463603113CE39F3367FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		454C5D2A409D1C51A8DF68DD126D79A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		77281B7F0EA98B10C824B0A77FFBE923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		8347F9DBD39FA1299B860DA79FD6332B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20337EFC13C8CC8BAB5A6CB8C00D82E;
+			remoteInfo = "Pods-GuessTheFlag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8ECDBE94D90E59CC0C37B3B72DEEA8 /* Pods-GuessTheFlag-GuessTheFlagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlag-GuessTheFlagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A91D01E58D5228B1B0C53B5164B6D6A /* Pods-GuessTheFlag-GuessTheFlagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlag-GuessTheFlagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3415828C43295697A2EE3ADDA6396E78 /* Pods-GuessTheFlagTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheFlagTests-umbrella.h"; sourceTree = "<group>"; };
+		3A03E32BEE3203600F5D8EFD4BEF40AC /* Pods-GuessTheFlag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlag.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD68468276B15205BD5DFB5477725A8 /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
+		3E5178A30399CFDADCDDB830E9A444DF /* Pods-GuessTheFlag-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlag-Info.plist"; sourceTree = "<group>"; };
+		44973CBF74098FF13A41D5F9634C0233 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		53528E69BC8A80FB801068AD3E21EA5F /* Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5834B4558C361DF3C29EFAE17701967B /* Pods-GuessTheFlag-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlag-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D8984F7FF0FFDD852C9DEA750EF6F73 /* Pods-GuessTheFlag-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheFlag-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62B31346F32347713CDC1BC6221BF7D4 /* Pods-GuessTheFlagTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlagTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6974BA71D19D947E58E612F176C43C5F /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		844F6F073A9323707A36B66AE0ED32FE /* Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m"; sourceTree = "<group>"; };
+		852A73699069CEBE639782BD082035A5 /* Pods-GuessTheFlag-GuessTheFlagUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheFlag-GuessTheFlagUITests.modulemap"; sourceTree = "<group>"; };
+		88A266146C50B85B74CFC0C3BC3B0F8F /* Pods-GuessTheFlag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheFlag-umbrella.h"; sourceTree = "<group>"; };
+		92163E56925D4609D85957ACAD526BB9 /* Pods-GuessTheFlagTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlagTests-Info.plist"; sourceTree = "<group>"; };
+		967D029FCF2204EEA4AE6F92D2D9FB34 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4D787CF0D3BE0E1AE5066689354B77 /* Pods_GuessTheFlag_GuessTheFlagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheFlag_GuessTheFlagUITests.framework; path = "Pods-GuessTheFlag-GuessTheFlagUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD01EEB0E29BE9365346C2AF767CAF4A /* Pods-GuessTheFlagTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheFlagTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B680AD956C23AB2362C808363A542679 /* Pods-GuessTheFlag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheFlag.modulemap"; sourceTree = "<group>"; };
+		C54099C98339F73B5DDCEDE09C296CBA /* Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h"; sourceTree = "<group>"; };
+		CF649A31FBF30FD10BE907D6B8346FC4 /* Pods-GuessTheFlag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlag.release.xcconfig"; sourceTree = "<group>"; };
+		D3BD9C04CDAC4C13E53BC4F06FCAA0A3 /* Pods_GuessTheFlag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheFlag.framework; path = "Pods-GuessTheFlag.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63DB697FD88DEC683905086F958B74E /* Pods-GuessTheFlag-GuessTheFlagUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessTheFlag-GuessTheFlagUITests-Info.plist"; sourceTree = "<group>"; };
+		D8ECEFD798356F8AC0A5D919296A06E4 /* Pods-GuessTheFlagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEB6023F109F179B3CD36058693C4C6 /* Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAFB1135AFD84241D43D7A39D88BDC2C /* Pods-GuessTheFlagTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessTheFlagTests.modulemap"; sourceTree = "<group>"; };
+		EB4B33844BB797CC28B3536B9D9F4F63 /* Pods-GuessTheFlagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessTheFlagTests.release.xcconfig"; sourceTree = "<group>"; };
+		F65BAA531A0878C507EEA3593667420E /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		F986216FCC9DF17789CA1BBFDEC3B185 /* Pods-GuessTheFlagTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheFlagTests-dummy.m"; sourceTree = "<group>"; };
+		FBA63ACE7E9F1A1108D07F3F9A02D5E2 /* Pods-GuessTheFlag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessTheFlag-dummy.m"; sourceTree = "<group>"; };
+		FD451507B522F98DC2C9A0EA9C6DE90A /* Pods_GuessTheFlagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuessTheFlagTests.framework; path = "Pods-GuessTheFlagTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043EE1EACC9A08C3DD1775B71BE0B1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B503353855A5E819590AE83A73D883B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564F243C0102F9B750ACAD317F7C1FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08CFDE54EE5463603113CE39F3367FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9914B4DE59D97A9DAA8E5D9FEB1F076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC8420166070B5BA8B2E0E32917DE1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045F33CBCDBAF84D11DEA2CD703F5C80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7AFC76BB164085D4F6293AB0B8E52E /* Pods-GuessTheFlag */,
+				CEB7ED4263ACE67C1A13F942A7B0D44D /* Pods-GuessTheFlag-GuessTheFlagUITests */,
+				0E4C14618074C2139F100804F6602FBD /* Pods-GuessTheFlagTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0E4C14618074C2139F100804F6602FBD /* Pods-GuessTheFlagTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFB1135AFD84241D43D7A39D88BDC2C /* Pods-GuessTheFlagTests.modulemap */,
+				AD01EEB0E29BE9365346C2AF767CAF4A /* Pods-GuessTheFlagTests-acknowledgements.markdown */,
+				62B31346F32347713CDC1BC6221BF7D4 /* Pods-GuessTheFlagTests-acknowledgements.plist */,
+				F986216FCC9DF17789CA1BBFDEC3B185 /* Pods-GuessTheFlagTests-dummy.m */,
+				92163E56925D4609D85957ACAD526BB9 /* Pods-GuessTheFlagTests-Info.plist */,
+				3415828C43295697A2EE3ADDA6396E78 /* Pods-GuessTheFlagTests-umbrella.h */,
+				D8ECEFD798356F8AC0A5D919296A06E4 /* Pods-GuessTheFlagTests.debug.xcconfig */,
+				EB4B33844BB797CC28B3536B9D9F4F63 /* Pods-GuessTheFlagTests.release.xcconfig */,
+			);
+			name = "Pods-GuessTheFlagTests";
+			path = "Target Support Files/Pods-GuessTheFlagTests";
+			sourceTree = "<group>";
+		};
+		26E9FF33390CD4B95C5FD40FDCDD2763 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD68468276B15205BD5DFB5477725A8 /* AppCenter.debug.xcconfig */,
+				967D029FCF2204EEA4AE6F92D2D9FB34 /* AppCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		38EB82926B39497BCBAAE195FDBD71DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44973CBF74098FF13A41D5F9634C0233 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A85152E0C4A995A49E7CFFDA6B7022D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6974BA71D19D947E58E612F176C43C5F /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6761EE334F7BF9305A98F133F847D3B0 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				E0F504B32DDCFCDFD2C6BFC5FDA4E6AC /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		67C771E93D888FCE8C1409D10F616617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD9C04CDAC4C13E53BC4F06FCAA0A3 /* Pods_GuessTheFlag.framework */,
+				9F4D787CF0D3BE0E1AE5066689354B77 /* Pods_GuessTheFlag_GuessTheFlagUITests.framework */,
+				FD451507B522F98DC2C9A0EA9C6DE90A /* Pods_GuessTheFlagTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D9DF1D508C9F3E606DBCF401B78891 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38EB82926B39497BCBAAE195FDBD71DE /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		847EBDDE94B66B5A82F61EB451C88447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAD0D14D15760D10693D96D806949D47 /* AppCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA25C758E7D96AACAAD10CC01E351370 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3A85152E0C4A995A49E7CFFDA6B7022D /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		CC7AFC76BB164085D4F6293AB0B8E52E /* Pods-GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+				B680AD956C23AB2362C808363A542679 /* Pods-GuessTheFlag.modulemap */,
+				5D8984F7FF0FFDD852C9DEA750EF6F73 /* Pods-GuessTheFlag-acknowledgements.markdown */,
+				5834B4558C361DF3C29EFAE17701967B /* Pods-GuessTheFlag-acknowledgements.plist */,
+				FBA63ACE7E9F1A1108D07F3F9A02D5E2 /* Pods-GuessTheFlag-dummy.m */,
+				3E5178A30399CFDADCDDB830E9A444DF /* Pods-GuessTheFlag-Info.plist */,
+				88A266146C50B85B74CFC0C3BC3B0F8F /* Pods-GuessTheFlag-umbrella.h */,
+				3A03E32BEE3203600F5D8EFD4BEF40AC /* Pods-GuessTheFlag.debug.xcconfig */,
+				CF649A31FBF30FD10BE907D6B8346FC4 /* Pods-GuessTheFlag.release.xcconfig */,
+			);
+			name = "Pods-GuessTheFlag";
+			path = "Target Support Files/Pods-GuessTheFlag";
+			sourceTree = "<group>";
+		};
+		CEB7ED4263ACE67C1A13F942A7B0D44D /* Pods-GuessTheFlag-GuessTheFlagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				852A73699069CEBE639782BD082035A5 /* Pods-GuessTheFlag-GuessTheFlagUITests.modulemap */,
+				DDEB6023F109F179B3CD36058693C4C6 /* Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.markdown */,
+				53528E69BC8A80FB801068AD3E21EA5F /* Pods-GuessTheFlag-GuessTheFlagUITests-acknowledgements.plist */,
+				844F6F073A9323707A36B66AE0ED32FE /* Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m */,
+				D63DB697FD88DEC683905086F958B74E /* Pods-GuessTheFlag-GuessTheFlagUITests-Info.plist */,
+				C54099C98339F73B5DDCEDE09C296CBA /* Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h */,
+				1A91D01E58D5228B1B0C53B5164B6D6A /* Pods-GuessTheFlag-GuessTheFlagUITests.debug.xcconfig */,
+				0F8ECDBE94D90E59CC0C37B3B72DEEA8 /* Pods-GuessTheFlag-GuessTheFlagUITests.release.xcconfig */,
+			);
+			name = "Pods-GuessTheFlag-GuessTheFlagUITests";
+			path = "Target Support Files/Pods-GuessTheFlag-GuessTheFlagUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				847EBDDE94B66B5A82F61EB451C88447 /* Pods */,
+				67C771E93D888FCE8C1409D10F616617 /* Products */,
+				045F33CBCDBAF84D11DEA2CD703F5C80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F504B32DDCFCDFD2C6BFC5FDA4E6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F65BAA531A0878C507EEA3593667420E /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD0D14D15760D10693D96D806949D47 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA25C758E7D96AACAAD10CC01E351370 /* Analytics */,
+				67D9DF1D508C9F3E606DBCF401B78891 /* Core */,
+				6761EE334F7BF9305A98F133F847D3B0 /* Crashes */,
+				26E9FF33390CD4B95C5FD40FDCDD2763 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68CF02F7A8B042B665491079755E59B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D01028ACD2B0B4A3DA9145126309FE /* Pods-GuessTheFlag-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B241AB53F21799C83CC4D781C5E78105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EDB189F5F1D62B21CEFA95756CF70 /* Pods-GuessTheFlag-GuessTheFlagUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04E76C64049BFEEF9503134471F82B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFE4D4CCF35D51A3665877602919B2 /* Pods-GuessTheFlagTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12F450A306340304244AA41FDAE26E3A /* Pods-GuessTheFlag-GuessTheFlagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5FF566F96CEA61EBBA668863FB56B6 /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlag-GuessTheFlagUITests" */;
+			buildPhases = (
+				B241AB53F21799C83CC4D781C5E78105 /* Headers */,
+				826BDCD93F8D2EA8E9A74F47A3613A36 /* Sources */,
+				B9914B4DE59D97A9DAA8E5D9FEB1F076 /* Frameworks */,
+				E78F3AA1F0CE9A0F00C7922D933B5856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACD9F9444E95F6542A2F06C9C69EB2B /* PBXTargetDependency */,
+			);
+			name = "Pods-GuessTheFlag-GuessTheFlagUITests";
+			productName = "Pods-GuessTheFlag-GuessTheFlagUITests";
+			productReference = 9F4D787CF0D3BE0E1AE5066689354B77 /* Pods_GuessTheFlag_GuessTheFlagUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35DA207C3F95D34D568597B50C376D15 /* Pods-GuessTheFlagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EE956E5656BF009A12C91C2B03CD4C /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlagTests" */;
+			buildPhases = (
+				C04E76C64049BFEEF9503134471F82B1 /* Headers */,
+				420631AD22A026FFB14899D74157EF87 /* Sources */,
+				564F243C0102F9B750ACAD317F7C1FE8 /* Frameworks */,
+				56C36E3C335CDB92EE8C047F7573DB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55D755BF17169C195D839AABB946742 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuessTheFlagTests";
+			productName = "Pods-GuessTheFlagTests";
+			productReference = FD451507B522F98DC2C9A0EA9C6DE90A /* Pods_GuessTheFlagTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F20337EFC13C8CC8BAB5A6CB8C00D82E /* Pods-GuessTheFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22908C81193A5EACF8925405918E97E9 /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlag" */;
+			buildPhases = (
+				68CF02F7A8B042B665491079755E59B5 /* Headers */,
+				559CD31A8468FA2CDE071A6881BC81AF /* Sources */,
+				043EE1EACC9A08C3DD1775B71BE0B1CA /* Frameworks */,
+				4F2FFBDCEE7B5CE5270C6720AD3B8E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A806E289A3D1B2FE540708B933815CE /* PBXTargetDependency */,
+			);
+			name = "Pods-GuessTheFlag";
+			productName = "Pods-GuessTheFlag";
+			productReference = D3BD9C04CDAC4C13E53BC4F06FCAA0A3 /* Pods_GuessTheFlag.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 67C771E93D888FCE8C1409D10F616617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				F20337EFC13C8CC8BAB5A6CB8C00D82E /* Pods-GuessTheFlag */,
+				12F450A306340304244AA41FDAE26E3A /* Pods-GuessTheFlag-GuessTheFlagUITests */,
+				35DA207C3F95D34D568597B50C376D15 /* Pods-GuessTheFlagTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F2FFBDCEE7B5CE5270C6720AD3B8E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C36E3C335CDB92EE8C047F7573DB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78F3AA1F0CE9A0F00C7922D933B5856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420631AD22A026FFB14899D74157EF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6792B0664BDB4014B382135AF7810FAE /* Pods-GuessTheFlagTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559CD31A8468FA2CDE071A6881BC81AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CF48E0EBA4BC238D7DB46196FDF73 /* Pods-GuessTheFlag-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BDCD93F8D2EA8E9A74F47A3613A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC6691A8C0BC276363AA79425A48B00 /* Pods-GuessTheFlag-GuessTheFlagUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A806E289A3D1B2FE540708B933815CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 454C5D2A409D1C51A8DF68DD126D79A8 /* PBXContainerItemProxy */;
+		};
+		6ACD9F9444E95F6542A2F06C9C69EB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 77281B7F0EA98B10C824B0A77FFBE923 /* PBXContainerItemProxy */;
+		};
+		E55D755BF17169C195D839AABB946742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GuessTheFlag";
+			target = F20337EFC13C8CC8BAB5A6CB8C00D82E /* Pods-GuessTheFlag */;
+			targetProxy = 8347F9DBD39FA1299B860DA79FD6332B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32D678E1DC499A86A36F2A1715F29880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967D029FCF2204EEA4AE6F92D2D9FB34 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		385A80C8E5753570EFFF6D4C53D95F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF649A31FBF30FD10BE907D6B8346FC4 /* Pods-GuessTheFlag.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7756B1D8A4C1B0550E37150A83FD6D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8ECEFD798356F8AC0A5D919296A06E4 /* Pods-GuessTheFlagTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlagTests/Pods-GuessTheFlagTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlagTests/Pods-GuessTheFlagTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90CA172A551C009C612ACE5002639121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8ECDBE94D90E59CC0C37B3B72DEEA8 /* Pods-GuessTheFlag-GuessTheFlagUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlag-GuessTheFlagUITests/Pods-GuessTheFlag-GuessTheFlagUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlag-GuessTheFlagUITests/Pods-GuessTheFlag-GuessTheFlagUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A19CECC8E2959C66B4B5DC1CD7A07A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A03E32BEE3203600F5D8EFD4BEF40AC /* Pods-GuessTheFlag.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3ECC73C1C6319F55F831BB50F536FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD68468276B15205BD5DFB5477725A8 /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC569D62C38A8582A58FB28583524B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A91D01E58D5228B1B0C53B5164B6D6A /* Pods-GuessTheFlag-GuessTheFlagUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlag-GuessTheFlagUITests/Pods-GuessTheFlag-GuessTheFlagUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlag-GuessTheFlagUITests/Pods-GuessTheFlag-GuessTheFlagUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE70B0B6EE2F9C1820DF976DB0118C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4B33844BB797CC28B3536B9D9F4F63 /* Pods-GuessTheFlagTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessTheFlagTests/Pods-GuessTheFlagTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessTheFlagTests/Pods-GuessTheFlagTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22908C81193A5EACF8925405918E97E9 /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19CECC8E2959C66B4B5DC1CD7A07A4C /* Debug */,
+				385A80C8E5753570EFFF6D4C53D95F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE956E5656BF009A12C91C2B03CD4C /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7756B1D8A4C1B0550E37150A83FD6D3D /* Debug */,
+				DE70B0B6EE2F9C1820DF976DB0118C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ECC73C1C6319F55F831BB50F536FF7 /* Debug */,
+				32D678E1DC499A86A36F2A1715F29880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5FF566F96CEA61EBBA668863FB56B6 /* Build configuration list for PBXNativeTarget "Pods-GuessTheFlag-GuessTheFlagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC569D62C38A8582A58FB28583524B0F /* Debug */,
+				90CA172A551C009C612ACE5002639121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
