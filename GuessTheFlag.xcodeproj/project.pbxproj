@@ -19,6 +19,7 @@
 		DBE3EA7324950882005728F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3EA7124950882005728F2 /* LaunchScreen.storyboard */; };
 		DBE3EA7E24950883005728F2 /* GuessTheFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3EA7D24950883005728F2 /* GuessTheFlagTests.swift */; };
 		DBE3EA8924950883005728F2 /* GuessTheFlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3EA8824950883005728F2 /* GuessTheFlagUITests.swift */; };
+		DBE3EA972495A733005728F2 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBE3EA962495A733005728F2 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DBE3EA8424950883005728F2 /* GuessTheFlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheFlagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE3EA8824950883005728F2 /* GuessTheFlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUITests.swift; sourceTree = "<group>"; };
 		DBE3EA8A24950883005728F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3EA962495A733005728F2 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		E1D980B4C72C5E99D0EE49BB /* Pods_GuessTheFlag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheFlag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C807BCA1D3C6364C8C6FAA /* Pods_GuessTheFlag_GuessTheFlagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheFlag_GuessTheFlagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,7 +115,6 @@
 				71E339C913A06A37DCFBAEE5 /* Pods-GuessTheFlagTests.debug.xcconfig */,
 				AC0C4AB655E96760C0FE07BB /* Pods-GuessTheFlagTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,7 @@
 				DBE3EA7424950882005728F2 /* Info.plist */,
 				DBE3EA6724950881005728F2 /* GuessTheFlag.xcdatamodeld */,
 				DBE3EA6E24950882005728F2 /* Preview Content */,
+				DBE3EA962495A733005728F2 /* AppCenter-Config.plist */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -288,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE3EA7324950882005728F2 /* LaunchScreen.storyboard in Resources */,
+				DBE3EA972495A733005728F2 /* AppCenter-Config.plist in Resources */,
 				DBE3EA7024950882005728F2 /* Preview Assets.xcassets in Resources */,
 				DBE3EA6D24950882005728F2 /* Assets.xcassets in Resources */,
 			);
