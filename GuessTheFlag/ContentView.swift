@@ -11,11 +11,40 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom)
+            Button("Tap me!") {
+                print("Button was tapped")
+            }
             
-            RadialGradient(gradient: Gradient(colors: [.blue, .black]), center: .center, startRadius: 20, endRadius: 200)
+            Button(action: {
+                print("Button was tapped")
+            }) {
+                Text("Tap me!")
+            }
             
-            AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
+            Button(action: {
+                print("Edit button was tapped")
+            }) {
+                Image(systemName: "pencil")
+            }
+            
+            Button(action: {
+                print("Edit button was tapped")
+            }) {
+                HStack(spacing: 10) {
+                    Image(systemName: "pencil")
+                    Text("Edit")
+                }
+            }
+            
+            Button(action: {
+                print("Edit button was tapped")
+            }) {
+                HStack(spacing: 10) {
+                    Image(systemName: "pencil")
+                        .renderingMode(.original)
+                    Text("Edit")
+                }
+            }
         }
     }
 }
