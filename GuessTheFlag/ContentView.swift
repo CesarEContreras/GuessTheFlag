@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct ContentView: View {
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
@@ -18,7 +19,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .black]), startPoint: .top, endPoint: .bottom)
-            .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.all)
             VStack(spacing: 30) {
                 VStack {
                     Text("Tap the flag of")
@@ -46,7 +47,7 @@ struct ContentView: View {
         }
         .alert(isPresented: $showingScore) {
             Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")){
-                    self.askQuestion()
+                self.askQuestion()
                 })
         }
     }
@@ -54,8 +55,10 @@ struct ContentView: View {
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
+            MSAnalytics.trackEvent("Correct Answer")
         } else {
             scoreTitle = "Wrong"
+            MSAnalytics.trackEvent("Wrong Answer")
         }
         showingScore = true
     }
