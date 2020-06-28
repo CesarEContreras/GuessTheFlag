@@ -15,6 +15,8 @@ struct ContentView: View {
     
     @State private var scoreTitle = ""
     @State private var showingScore = false
+    @State private var rightScore = 0
+    @State private var wrongScore = 0
     
     var body: some View {
         ZStack {
@@ -46,7 +48,7 @@ struct ContentView: View {
             }
         }
         .alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")){
+            Alert(title: Text(scoreTitle), message: Text("Your score is \(rightScore) correct and \(wrongScore) wrong"), dismissButton: .default(Text("Continue")){
                 self.askQuestion()
                 })
         }
@@ -55,9 +57,11 @@ struct ContentView: View {
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
+            rightScore += 1
             MSAnalytics.trackEvent("Correct Answer")
         } else {
             scoreTitle = "Wrong"
+            wrongScore += 1
             MSAnalytics.trackEvent("Wrong Answer")
         }
         showingScore = true
