@@ -60,7 +60,7 @@ struct ContentView: View {
             rightScore += 1
             MSAnalytics.trackEvent("Correct Answer")
         } else {
-            scoreTitle = "Wrong"
+            scoreTitle = "Wrong! That's the flag of \(countries[number])"
             wrongScore += 1
             MSAnalytics.trackEvent("Wrong Answer")
         }
